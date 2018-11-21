@@ -24,13 +24,73 @@
         color: white;
       }
     </style>
+    <!-- navigator, 디자인 default로 설정 -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- navbar의 header 파트 -->
+        <div class="navbar-header">
+          <!-- nav bar 축소시 나타나는 button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only"></span>
+            <!-- 버튼 내 3개의 bar 줄 -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">브라더준 포트폴리오</a>
+        </div>
+        <!-- navbar menu 파트 -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- menu내 요소들 -->
+          <ul class="nav navbar-nav">
+            <!-- active option, 선택되어진 상태 -->
+            <li class="active"><a href="#">소개<span class="sr-only"></span></a></li>
+            <li><a href="#">참여프로젝트</a></li>
+            <li class="dropdown">
+              <!-- dropdown 설정(caret은 아래방향 화살표) -->
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">기타<span class="caret"></span></a>
+              <!-- dropdown내 요소들 -->
+              <ul class="dropdown-menu">
+                <li><a href="#">드롭다운1</a></li>
+                <li><a href="#">드롭다운2</a></li>
+                <li><a href="#">드롭다운3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- 검색하기 form, navbar-left -->
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="검색하기">
+            </div>
+            <button type="submit" class="btn btn-default">검색</button>
+          </form>
+          <!-- 로그인, 회원가입, navbar-right -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+                <!-- 접속하기 dropdown내 요소들 -->
+                <ul class="dropdown-menu">
+                  <li><a href="#">로그인</a></li>
+                  <li><a href="#">회원가입</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- container -->
     <div class="container">
       <div class="jumbotron">
-        <h1 class="text-center">브라더준이 만든 것들</h1>
-        <p class="text-center">브라더준이 만든 것들입니다. </p>
-        <p></p>
-        <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">내용 확인하기</a></p>
+        <h1 class="text-center">브라더준 포트폴리오</h1>
+        <p class="text-center">markim94.tistroy.com </p>
+        <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">참여프로젝트 확인하기</a></p>
       </div>
     </div>
+    <!-- jquery, bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
