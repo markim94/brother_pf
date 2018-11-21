@@ -10,5 +10,6 @@
 ### 2018.11.21
 > - navbar 생성
 > - navbar내 dropdown 버튼 추가
+> - 검색 form 추가
 > - jumbotron 생성(페이지 대문 생성)
 > > ![스크린샷](./screenshots/2018-11-21.png)
