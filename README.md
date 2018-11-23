@@ -12,3 +12,8 @@
 > - 검색 form 추가
 > - jumbotron 생성(페이지 대문 생성)
 > > ![스크린샷](./screenshots/2018-11-21.png)
+
+### 2018.11.22
+> - 외부 스타일 시트 적용
+> - navbar 색상 변경(hover시, click시)
+> > ![스크린샷](./screenshots/2018-11.22.png)
